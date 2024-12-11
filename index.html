@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Adoption Buddy</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome/releases/v5.5.0/css/al.css">
+
+</head>
+<body>
+    <div class="body">
+    <header class="header1">
+        <h3>Adoption Buddy</h3>
+        <div class="menu">
+            <ul>
+                <li><a href="#" class="link active"></a>Home</li>
+                <li><a href="#" class="link"></a>About</li>
+                <li><button onclick="scrollToServices()" class="services-btn">Services</button></li>
+                <li><button onclick="scrollToTestimonials()" class="testimonials-btn">Testimonials</button> </li>
+                <li><button onclick="scrollToFaq()" class="faq-btn">FAQ</button></li>
+            </ul>
+        </div>
+
+        <div class="contact"><button class="btnwhite-btn" id="loginBtn" onclick="scrollToContact()"><strong>Contact us</strong></button></div>
+    </header>
+
+    <main>
+        <div class="welcome">
+            <p class="welcomeMessage">
+                We’re thrilled to have you here! At Pet Adoption Buddy, we believe every furry friend deserves a loving home. Our mission is to connect you with adorable pets waiting for their forever families. Explore our profiles to meet our wonderful pups, read heartwarming success stories, and find resources to help you on your pet journey. Happy exploring!
+
+            </p>
+        <div class="nav-button">
+            <button class="btnwhite-btn" id="loginBtn" onclick="scrollToLogin()"><strong>Book session Now!</strong></button>
+        </div>
+
+
+        </div>
+
+
+        <div class="highlight">
+            <img src="img/banner1.png" alt="banner1">
+            <p><strong>2.8K+ </strong><br>pets trained</p> 
+        </div>
+
+
+        <div class="wrapper">
+            <div class="grid1"><a href="https://en.wikipedia.org/wiki/Beagle" target="_blank"> Beagle <img src="img/Beagle.png" alt="Beagle"></a></div>
+
+            <div class="grid2"><a href="https://en.wikipedia.org/wiki/Bengal_cat" target="_blank"> Bengal <img src="img/Bengal.png" alt="Bengal"></a></div>
+
+            <div class="grid3"><a href="https://en.wikipedia.org/wiki/Bulldog" target="_blank"> Bulldog <img src="img/Bulldog.png" alt="Bulldog"></a></div>
+
+            <div class="grid4"><a href="https://en.wikipedia.org/wiki/German_Shepherd" target="_blank"> German Shepherd <img src="img/German Shepherd.png" alt="German Shepherd"></a></div>
+
+            <div class="grid5"><a href="https://en.wikipedia.org/wiki/Golden_Retriever" target="_blank"> Golden Retriever <img src="img/Golden Retriever.png" alt="Golden Retriever"></a></div>
+
+            <div class="grid6"><a href="https://en.wikipedia.org/wiki/Labrador_Retriever" target="_blank"> Labrador <img src="img/Labrador.png" alt="Labrador"></a></div>
+
+            <div class="grid7"><a href="https://en.wikipedia.org/wiki/Maine_Coon" target="_blank"> Maine Coon <img src="img/Maine Coon.png" alt="Maine Coon"></a></div>
+
+            <div class="grid8"><a href="https://en.wikipedia.org/wiki/Persian_cat" target="_blank"> Persian <img src="img/Persian.png" alt="Persian"></a></div>
+
+            <div class="grid9"><a href="https://en.wikipedia.org/wiki/Ragdoll" target="_blank"> Ragdoll <img src="img/Ragdoll.png" alt="Ragdoll"></a></div>
+
+            <div class="grid10"><a href="https://en.wikipedia.org/wiki/Scottish_Fold" target="_blank"> Scottish Fold <img src="img/Scottish Fold.png" alt="Scottish Fold"></a></div>
+
+            <div class="grid11"><a href="https://en.wikipedia.org/wiki/Siamese_cat" target="_blank"> Siamese <img src="img/Siamese.png" alt="Siamese"></a></div>
+        </div>
+    </main>
+    </div>
+
+
+    <!----------------------------- Services  Section -------------------------------->
+
+    <div class="services" id="services">
+        <h1>Services We Offer</h1>
+
+        <div class="service-list">
+            <div class="service-item">
+                <h2>1. Pet Adoption</h2>
+                <p>We connect loving families with pets in need. Our adoption process includes:</p>
+                <ul>
+                    <li>Browse Adoptable Pets: Explore our online listings of dogs, cats, rabbits, and other animals available for adoption.</li>
+                    <li>Application Process: Fill out our simple online adoption application to express interest in a pet.</li>
+                    <li>Meet-and-Greet: Schedule a meeting with your chosen pet to ensure a good match.</li>
+                    <li>Home Visit/Interview: In some cases, we may conduct a home visit or interview to ensure your home is a safe environment for the pet.</li>
+                    <li>Adoption Support: Our team provides guidance and support throughout the adoption process, from selecting the right pet to the final adoption step.</li>
+                </ul>
+            </div>
+
+            <div class="service-item">
+                <h2>2. Foster Program</h2>
+                <p>Our Foster-to-Adopt program allows potential adopters to take a pet home temporarily before making a permanent commitment. This gives families the opportunity to ensure the pet is a good fit for their home and lifestyle.</p>
+                <ul>
+                    <li>Short-Term Fostering: If you're unable to adopt immediately, consider fostering a pet. You'll provide a temporary loving home while we work to find a permanent family.</li>
+                    <li>Foster Support: We provide all necessary supplies and veterinary care for foster pets, plus ongoing support to ensure a successful fostering experience.</li>
+                </ul>
+            </div>
+
+            <div class="service-item">
+                <h2>3. Pet Transport Services</h2>
+                <p>We offer pet transport services for families adopting pets from other areas or states. This service helps ensure a safe and smooth journey for the pet, so they can join their new family without stress.</p>
+                <ul>
+                    <li>Nationwide Transport: Whether you’re adopting locally or across state lines, we can arrange transport for your new pet.</li>
+                    <li>Safe & Comfortable Travel: Our transportation service ensures pets are safely and comfortably transported to their new homes.</li>
+                </ul>
+            </div>
+
+            <div class="service-item">
+                <h2>4. Veterinary Care & Wellness</h2>
+                <p>We prioritize the health and wellness of all the pets in our care. Our services include:</p>
+                <ul>
+                    <li>Vaccinations & Spaying/Neutering: All pets up for adoption are fully vaccinated and spayed/neutered to ensure they’re healthy and ready for a new home.</li>
+                    <li>Health Check-ups: Each pet undergoes a thorough health screening before being listed for adoption.</li>
+                    <li>Microchipping: We microchip all adoptable pets to ensure they are easily identified in case they get lost after adoption.</li>
+                </ul>
+            </div>
+
+            <div class="service-item">
+                <h2>5. Training & Behavior Support</h2>
+                <p>We understand that transitioning into a new home can be stressful for pets, and we’re here to help. Our training and behavior support services include:</p>
+                <ul>
+                    <li>Basic Training Resources: We offer tips and guides for basic obedience and socialization.</li>
+                    <li>Behavioral Consultations: For pets with special behavioral needs, we provide consultations to address issues such as separation anxiety, house training, and aggression.</li>
+                    <li>Post-Adoption Support: Our team is available to provide ongoing support after adoption to help with training and behavior challenges.</li>
+                </ul>
+            </div>
+
+            <div class="service-item">
+                <h2>6. Pet Supplies & Adoption Packages</h2>
+                <p>We offer pet adoption packages that include essential supplies to help you get started with your new pet. These packages may include:</p>
+                <ul>
+                    <li>Food & Bowls</li>
+                    <li>Collars, Leashes, and Harnesses</li>
+                    <li>Beds & Blankets</li>
+                    <li>Toys & Chew Items</li>
+                </ul>
+                <p>These packages ensure that adopters have everything they need to welcome their new pet into their home.</p>
+            </div>
+
+            <div class="service-item">
+                <h2>7. Donations & Fundraising</h2>
+                <p>We rely on the generosity of people like you to help fund our mission of rescuing and rehoming pets. Your donations go directly to:</p>
+                <ul>
+                    <li>Covering veterinary care costs.</li>
+                    <li>Funding transport and fostering programs.</li>
+                    <li>Providing food, supplies, and shelter for our animals.</li>
+                </ul>
+                <p>We also organize fundraising events throughout the year and offer opportunities for individuals and businesses to get involved.</p>
+            </div>
+        </div>    
+    </div>
+<!--------------------------------- Testimonials ------------------------------------->
+    <div class="testimonials" id="testimonials">
+        <div class="inner">
+            <h1>Testimonials</h1>
+            <div class="border"></div>
+
+            <div class="row">
+                <!-- Testimonial 1 -->
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="img/owner1.jpg" alt="Owner 1">
+                        <div class="testimonial-content">
+                            <div class="name">Bella Donna</div>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star-half"></i>
+                            </div>
+                            <p>
+                                I found my best friend through this site! The adoption process was smooth, and the support team was so helpful. Highly recommend for anyone looking to adopt.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="img/owner2.jpg" alt="Owner 2">
+                        <div class="testimonial-content">
+                            <div class="name">Tom Redman</div>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+                            <p>
+                                We adopted a sweet kitten who’s brought so much joy to our home. The site made it easy to find the perfect pet, and the process was stress-free!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="img/owner5.jpg" alt="Owner 3">
+                        <div class="testimonial-content">
+                            <div class="name">Jessica Powell</div>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star-half"></i>
+                            </div>
+                            <p>
+                                I never thought I’d find such a loving companion, but I did! The staff made sure I was matched with the right dog. Thank you for helping me find my new furry friend.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="img/owner4.jpg" alt="Owner 3">
+                        <div class="testimonial-content">
+                            <div class="name">Emma Rogan</div>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+                            <p>
+                                Adopting my dog was a life-changing decision, and I’m so grateful to this site. It was easy, and I was guided every step of the way. My dog is now my loyal companion!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 5 -->
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="img/owner6.jpg" alt="Owner 3">
+                        <div class="testimonial-content">
+                            <div class="name">Maimun Rufai</div>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star-half"></i>
+                            </div>
+                            <p>
+                                The site made it simple to adopt a wonderful pet. I felt supported throughout the entire process, and now my home is filled with love and joy!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 6 -->
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="img/owner3.jpg" alt="Owner 4">
+                        <div class="testimonial-content">
+                            <div class="name">Joy Bishop</div>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star-half"></i>
+                            </div>
+                            <p>
+                                This adoption site helped us find our forever cat. The whole process was transparent, and we could tell they truly care about the animals. So thankful!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!----------------------------------- FAQ Section ---------------------------------->
+
+    <div class="faq" id="faq">
+        <h1>Frequently Asked Questions</h1>
+
+        <div class="faq-item">
+            <h2>1. How do I adopt a pet?</h2>
+            <p>Adopting a pet is easy! Just browse our list of available pets, fill out the adoption application, and schedule a meet-and-greet with the pet you're interested in. Our team will guide you through the entire process.</p>
+        </div>
+
+        <div class="faq-item">
+            <h2>2. Do I need to be a local resident to adopt?</h2>
+            <p>While we prioritize local adoptions, we also offer pet transport services for families adopting from other areas or states. Please contact us for more details.</p>
+        </div>
+
+        <div class="faq-item">
+            <h2>3. What’s the adoption fee?</h2>
+            <p>The adoption fee varies depending on the pet’s breed, age, and health status. Fees typically cover vaccinations, spaying/neutering, microchipping, and general veterinary care.</p>
+        </div>
+
+        <div class="faq-item">
+            <h2>4. Can I foster a pet before adopting?</h2>
+            <p>Yes, we offer a Foster-to-Adopt program, allowing you to take a pet home temporarily to ensure they are a good fit for your family before making a permanent adoption commitment.</p>
+        </div>
+
+        <div class="faq-item">
+            <h2>5. What is the process for surrendering a pet?</h2>
+            <p>If you need to surrender your pet, please reach out to us directly. We’ll assess your pet’s needs and find them a new, loving home through our adoption program.</p>
+        </div>
+
+        <div class="faq-item">
+            <h2>6. Are there any restrictions for adoption?</h2>
+            <p>We review adoption applications based on the pet’s specific needs and the adopter’s lifestyle. Some pets may have certain requirements (e.g., no other pets, fenced yard, etc.). Each case is reviewed individually.</p>
+        </div>
+
+        <div class="faq-item">
+            <h2>7. Can I donate to support your mission?</h2>
+            <p>Yes! We rely on the generosity of our supporters. You can make a one-time or recurring donation through our website, or get involved in our fundraising events. All donations go directly to the care of our pets.</p>
+        </div>
+
+        <div class="faq-item">
+            <h2>8. What happens if I need to return a pet after adoption?</h2>
+            <p>If for any reason you are unable to keep the pet, please contact us immediately. We’ll work with you to find a solution, whether it’s a return or helping with training and behavior support.</p>
+        </div>
+
+        <div class="faq-item">
+            <h2>9. Do you provide training for adopted pets?</h2>
+            <p>Yes! We offer basic training resources and post-adoption support for pets, including behavioral consultations and training tips to ensure a smooth transition into your home.</p>
+        </div>
+
+        <div class="faq-item">
+            <h2>10. How can I get involved as a volunteer?</h2>
+            <p>We welcome volunteers! You can help by fostering pets, assisting with adoption events, or providing administrative support. Please visit our volunteer page for more information on how to get involved.</p>
+        </div>
+    </div>
+
+
+
+<div class="body1">
+
+<!----------------------- Form box --------------------------->
+    <div class="form-box">
+
+<!--------------- Login Form ------------------->
+        <div class="login-container" id="login">
+            <div class="top">
+                <span>Don't have an account? <a href="#" onclick="register()">Sign Up</a></span>
+                <header class="header">Login</header>   
+            </div>
+            
+            <div class="input-box">
+                    <input type="email" class="input-field" id="email" placeholder="Username or Email">
+                    <i class="bx bx-user"></i>  
+            </div>
+            <div class="input-box">
+                    <input type="password" class="input-field" placeholder="Password">
+                    <i class="bx bx-lock-alt"></i>  
+            </div>
+            <div class="input-box">
+                    <input type="submit" class="submit" value="Sign In">
+            </div>
+            <div class="two-col">
+                <div class="one">
+                    <input type="checkbox" id="login-check">
+                    <label for="login-check">Remember Me</label>
+                </div>
+                <div class="two">
+                    <label><a href="#">Forgot password?</a></label>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--------------- registration Form ------------------->
+        <div class="register-container" id="register">
+            <div class="top">
+                <span>Have an account? <a href="#" onclick="login()">Login</a></span>
+                <header class="header">Register</header>   
+            </div>
+            <div class="two-forms">
+                <div class="input-box">
+                    <input type="name" class="input-field" id="name" placeholder="Firstname">
+                    <i class="bx bx-user"></i>  
+                </div>
+                <div class="input-box">
+                    <input type="text" class="input-field" id="name" placeholder="Lastname">
+                    <i class="bx bx-user"></i>  
+                </div>
+            </div>
+            <div class="input-box">
+                    <input type="email" class="input-field" id="email" placeholder="Email">
+                    <i class="bx bx-envelope"></i>  
+            </div>
+            <div class="input-box">
+                    <input type="password" class="input-field" placeholder="Password">
+                    <i class="bx bx-lock-alt"></i>  
+            </div>
+            <div class="input-box">
+                    <input type="password" class="input-field" placeholder="Confirm Password">
+                    <i class="bx bx-lock-alt"></i>  
+            </div>
+            <div class="input-box">
+                    <input type="submit" class="submit" value="Register">
+            </div>
+            <div class="two-col">
+                <div class="one">
+                    <input type="checkbox" id="register-check">
+                    <label for="register-check">Remember Me</label>
+                </div>
+                <div class="two">
+                    <label><a href="#">Terms & conditions</a></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>  
+
+
+
+
+<!---------------------------------- Statement --------------------------------->
+    <div class="statement">
+            <p>
+                Together, let’s make a Pawsitive difference in the lives of these incredible animals. Your new best friend is just a click away!
+            </p>
+            <img src="img/pawsitive.png" alt="pawsitive">   
+    </div> 
+
+
+<script src="main.js"></script>   
+</body>
+<footer>
+    <!----------------------------------- Contact Form -------------------------------->
+    <section class="contact-form-container" id="contact">
+    <div class="contact-form">
+        <h2 class="form-header">Contact Us</h2>
+        <p class="form-subheading">We'd love to hear from you! Please fill out the form below and we'll get back to you soon.</p>
+
+        <form action="#" method="POST" class="contact-form-fields">
+            <div class="input-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="John Doe" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="example@example.com" required>
+            </div>
+
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" class="form-input" placeholder="How can we assist you?" rows="4" required></textarea>
+            </div>
+
+            <div class="input-group">
+                <button type="submit" class="submit-button">Send Message</button>
+            </div>
+        </form>
+        <div class="donation-section">
+            <h3 class="donation-header">Support Us!</h3>
+            <p class="donation-text">If you appreciate our work, please consider making a donation to help us continue our mission. Every contribution counts!</p>
+            <a href="#" class="donation-button">Donate Now</a>
+        </div>
+    </div>
+    </section>
+        <!----------------------------------------------------------------------------->
+
+    <div class="social-media">
+        <div class="social-icon">
+                <a href="https://www.facebook.com" class="social-icon" target="_blank"><i class="bx bxl-facebook"></i></a>
+                <a href="https://twitter.com" class="social-icon" target="_blank"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.instagram.com" class="social-icon" target="_blank"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com" class="social-icon" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        </div>
+    </div>
+    <p>&copy; 2024 Pet Adoption Buddy. All rights reserved. Alani Oyegade</p>
+</footer>
+</html>
